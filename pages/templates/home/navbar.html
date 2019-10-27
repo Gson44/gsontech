@@ -1,0 +1,10 @@
+{% block nav %}
+      <div class="navBar">
+          <ul>
+             
+             <li>{% block nav-home %}<a href="{% url 'home' %}">Home</a>{% endblock %}</li>
+             <li>{% block nav-project %}<a href="{% url 'projects' %}">Projects</a>{% endblock %}</li>
+          </ul>
+       </div>
+
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'home/base.html'%}
+{% load static %}
+{% block content %} 
+    <div class="webSectionProjects">
+        <h1> Websites Projects</h1>
+        <div class="webProjects">
+            <div class="openBox">
+                <h2>OpenBox</h2>
+                <img src="{% static 'images/openbox.png' %}" alt=""><br>
+            <a href="https://boxdeals.herokuapp.com">View</a>
+            </div>
+            <div class="cookBook">
+                <h2>CookBook</h2>
+                <img src="{% static 'images/cookboo.png' %}" alt=""><br>
+            <a href="https://book2cook.herokuapp.com">View</a>
+            </div>
+        </div>    
+    </div>
+{% endblock %}

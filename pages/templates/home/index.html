@@ -1,0 +1,82 @@
+{% extends 'home/base.html'%}
+{% load static %}
+{% block content %}
+    <div class="welcomeMainContent">
+        <div class="welcomeSection" style="background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('{% static "images/welcome.jpg"%}')";>
+          <h2>CHALLENGES ARE WHAT
+            MAKE LIFE INTERESTING. OVERCOMING
+            THEM IS WHAT MAKES LIFE MEANINGFUL 
+          </h2>
+        </div>
+    
+        <div class="bioSection">
+          <h1>Bio</h1>
+          <div class="bioContents">
+            <img src="{% static 'images/me.jpg' %}" alt="">
+            <p>My name is Gerson Areche. I am a Marine Corps
+              veteran. I'm also a technologist enthuastic. I'm able to build
+              website and web application. My area of expertise is Full Stack Web Development
+              and IoT(Internet Of Things). 
+            </p>
+          </div>
+          
+        </div>
+        
+        <div class="skillSection">
+            <h1>Expertise</h1>
+            <div class="skillContent">
+              <div class="webDevelopment">
+                <h2>Full Stack Web Development</h2><br>
+                <img src="{% static 'images/website.png' %}" alt=""><br>
+                <div class="frontEnd">
+                  <h3>FrontEnd</h3>
+                  <ul>
+                    <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Javascript</li>
+                      <li>React</li>
+                      <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="backEnd">
+                  <h3>BackEnd</h3>
+                  <ul>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>Django Rest</li>
+                    <li>Postgres</li>            
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="iot">
+                  <h2>Internet of Things (IoT)</h2><br>
+                  <img src="{% static 'images/iot.jpg' %}" alt=""><br>
+                  <div class="skills">
+                    <div class="hardwares">
+                      <h3>Hardwares</h3>
+                      <ul>
+                        <li>Arduino</li>
+                        <li>RaspberryPi</li>
+                        <li>MSP430</li>
+                        </ul>
+                    </div>
+                    <div class="Software">
+                      <h3>Software</h3>
+                      <ul>
+                        <li>C/C++</li>
+                        <li>Python</li>            
+                      </ul>
+                    </div>
+                    <div class="Wireless Communication">
+                        <h3>Wireless Communication</h3>
+                        <ul>
+                          <li>Matlab</li>          
+                        </ul>
+                      </div>
+                  </div>              
+              </div>
+            </div>
+          </div>
+    </div>    
+{% endblock %}

@@ -1,0 +1,45 @@
+.webSectionProjects{
+    padding-left:150px;
+    margin:auto;
+    text-align: center;
+    
+}
+.webProjects{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    padding:30px;
+    
+}
+
+.webProjects a{
+    border: solid 1px black;
+    font-size: 20px;
+    padding:10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color:black;
+    border-radius: 10px;
+}
+
+.openBox a:hover{
+    color:orange;
+}
+
+.cookBook a:hover{
+    color:rgb(165, 35, 3);
+}
+
+.webProjects dev{
+    padding:10px;
+}
+.webSectionProjects img{
+    height:250px;
+    padding:30px;
+    margin:30px;
+}
+
+.webSectionProjects h1, h2{
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px;
+}
