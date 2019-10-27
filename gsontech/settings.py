@@ -25,7 +25,7 @@ SECRET_KEY = 'p%g8rm$0l3hdwpq^6i0fd39dy=34v_^yl6m7ksuzm97y)92ng#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [‘0.0.0.0’, ‘localhost’, ‘https://morning-waters-00710.herokuapp.com’]
+ALLOWED_HOSTS = [‘0.0.0.0’, ‘localhost’, ‘https://gsontech.herokuapp.com’]
 
 
 # Application definition
