@@ -1,1 +1,1 @@
-web: gunicorn app:Gsontech
+web: gunicorn app:app
