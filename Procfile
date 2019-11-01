@@ -1,1 +1,1 @@
-web: gunicorn Gsontech.wsgi
+web: gunicorn gsontech.wsgi
