@@ -1,0 +1,124 @@
+
+*{
+  margin:0;
+}
+.welcomeMainContent{
+   /* Same as the width of the sidebar */
+  text-align: center;
+  padding-left: 100px;
+}
+
+.welcomeMainContent h1{
+  font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+  list-style-type: none;
+}
+
+.welcomeSection{
+   background-repeat: no-repeat;
+   background-size: cover;
+  background-color:black;
+  color:white;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 100vh;
+}
+
+.welcomeSection h2{
+  margin:auto;
+  padding:150px;
+  letter-spacing: 5px;
+}
+
+
+.bioContent{
+  display:flex;
+  background-color:white;
+  justify-content: center;
+  text-align: center;
+  margin:20px;
+  padding:50px;
+  height: 100vh;
+  
+}
+.bioSection h1{
+  text-align: center;
+  padding:30px;
+}
+
+.bioSection img{
+  margin:auto;
+  height:50vh;
+  border-radius: 10px;
+}
+
+.bioSection p{
+  font-size: 25px;
+  width:30%;
+ margin:auto;
+ padding:30px;
+}
+
+.skillSection{
+  background-color: black;
+  color: white;
+  display:grid;
+  justify-content: center;
+  
+}
+
+.skillSection li{
+  padding:2px;
+  padding-right:30px;
+}
+
+.skillSection h1{
+  padding:30px;
+}
+
+.skillSection h3{
+  padding:15px;
+}
+.skillSection img{
+  height: 150px;
+  border-radius: 10px;
+}
+.skillContent{
+  display:flex;
+  justify-content: center;
+  padding:30px;
+ 
+ }
+
+
+.webDevelopment{
+  padding:30px;
+  margin:30px;
+  text-align:center;
+}
+
+.webDevelopment h2,h3 {
+  color:#88c5cc;
+}
+
+
+.iot{
+  padding:30px;
+  margin:30px;
+  
+}
+
+.iot h2{
+  color:rgb(173, 18, 18);
+}
+
+.iot h3{
+  color:rgb(173, 18, 18);
+}
+
+
+
+
+

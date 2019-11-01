@@ -1,0 +1,55 @@
+.mainContent{
+padding-left:150px;
+margin:auto;
+text-align: center;
+}
+
+.mainContent h1, h2{
+  font-family: 'Courier New', Courier, monospace;
+    padding:10px;
+}
+.profileContents{
+  display:flex;
+  justify-content: center;
+  padding:0px;
+  margin:auto;
+  
+}
+
+.profileContents img{
+  height:200px;
+  border-radius: 10px;
+  padding:30px;
+}
+
+.profileWeb{
+  padding:50px;
+}
+
+.profileIot{
+  padding:50px;
+}
+
+.profileContents a{
+  border: 1px solid black;
+  font-size:20px;
+  padding:10px;
+  border-radius: 15px;
+  text-decoration: none;
+  color:white;
+}
+
+.profileContents a:hover{
+  color: black;
+}
+.profileWeb a{
+  background-color:#88c5cc;
+}
+
+.profileIot a{
+  background-color:rgb(173, 18, 18);
+}
+
+.profileIot img{
+  border-radius: 50%;
+}
