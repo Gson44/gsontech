@@ -43,3 +43,11 @@
     font-family: 'Courier New', Courier, monospace;
     padding:10px;
 }
+@media only screen and (max-width: 600px) {
+    .webSectionProjects{
+        padding-left:150px;
+        margin:auto;
+        text-align: center;
+        
+    }
+  }

@@ -118,6 +118,11 @@ li{
   color:rgb(173, 18, 18);
 }
 
+@media only screen and (max-width: 600px) {
+  body{
+    width:200vw;
+  }
+}
 
 
 

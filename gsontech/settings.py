@@ -12,7 +12,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'pg8rm$0l3hdwpq^6i0fd39dy=34v_^yl6m7ksuzm97y)92ng#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['https://gsontech.herokuapp.com/']
 
