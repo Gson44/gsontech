@@ -1,0 +1,31 @@
+.emailContent{
+    padding-left:150px;
+    margin:auto;
+    text-align: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px;
+}
+input{
+    margin:20px;
+    width:30%;
+    height:25%;
+}
+
+label{
+    font-size: 22px;
+}
+
+button{
+    height:80px;
+    width:150px;
+    background-color:orange;
+    border-radius: 10px;
+    color:white;
+    font-size:25px;
+}
+button:hover{
+    color:black;
+    background-color:white;
+}

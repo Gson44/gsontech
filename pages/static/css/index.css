@@ -121,6 +121,7 @@ li{
 @media only screen and (max-width: 600px) {
   body{
     width:200vw;
+    margin:auto;
   }
 }
 
